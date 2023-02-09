@@ -1,0 +1,201 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.conteiner_center {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: rgb(74, 72, 72);
+}
+
+.header_wrap {
+    color: white;
+    display: flex;
+}
+
+.photo {
+    border: 6px solid rgb(240, 242, 244);
+    border-radius: 50%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.header_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 70px;
+
+}
+
+.name {
+    font-size: 40px;
+}
+
+.main {
+    color: rgb(74, 72, 72);
+}
+
+.objective {
+    padding-top: 70px;
+    padding-bottom: 25px;
+}
+
+.objective_text {
+    padding-bottom: 18px;
+}
+
+.experience {
+    padding-top: 70px;
+    padding-bottom: 25px;
+}
+
+.experience_R {
+    display: flex;
+}
+
+.experience_year {
+    padding-right: 88px;
+}
+
+.experience_text {
+    padding-left: 175px;
+    padding-top: 10px;
+}
+
+.WebRef_Studio_New_York_Times {
+    padding-left: 17px;
+}
+
+.skills {
+    padding-top: 70px;
+    padding-bottom: 25px;
+}
+
+.skills_text {
+    padding-bottom: 70px;
+}
+
+.section_language {
+    padding-bottom: 80px;
+}
+
+.language {
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+
+.language_list {
+    list-style: none;
+    padding-bottom: 7px;
+}
+
+.language_list::before {
+    content: "\25A0";
+    color: #474747;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+}
+
+.form {
+    background-color: wheat;
+    padding: 40px;
+}
+
+.H2_form {
+    text-align: center;
+    padding-top: 37px;
+    padding-bottom: 10px;
+}
+
+.conteiner_form {
+    display: flex;
+    justify-content: center;
+}
+
+.form_input {
+    width: 300px;
+    border: 5px solid rgb(74, 72, 72);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: wheat;
+    resize: none;
+}
+
+.textarea_R {
+    display: flex;
+    justify-content: center;
+}
+
+.textarea {
+    resize: none;
+    border: none;
+    width: 702px;
+    background-color: wheat;
+    outline: 0;
+    outline-offset: 0;
+    border-bottom: 5px solid rgb(74, 72, 72);
+}
+
+.button {
+    width: 150px;
+    height: 50px;
+    color: white;
+    background: grey;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 13px;
+    text-align: center;
+    color: white;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.footer {
+    background-color: rgb(74, 72, 72);
+    padding: 50px;
+    color: white;
+}
+
+.H2_contacts {
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: 28px;
+}
+
+.contacts_li {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 40px;
+}
+
+.li {
+    list-style-type: none;
+}
+
+.contacts {
+    color: white;
+    text-decoration: none;
+}
+
+.contacts:hover {
+    opacity: 0.4;
+}
+
+.All_Rights_Reserved_2022 {
+    text-align: center;
+    padding-bottom: 10px;
+    color: darkgray;
+}
+
+h2 {
+    font-size: 25px;
+}
